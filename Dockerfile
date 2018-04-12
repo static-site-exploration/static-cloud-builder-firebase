@@ -1,5 +1,5 @@
 # use latest Node LTS (Boron)
-FROM node:boron
+FROM node:alpine
 # install Firebase CLI
 RUN npm install -g firebase-tools
 
